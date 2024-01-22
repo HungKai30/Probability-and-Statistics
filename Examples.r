@@ -27,7 +27,6 @@ nptX
 sum(nptX)
 (tx -50*nptX)^2 /(50*nptX)
 chisq.test(random_numbers)
-X-squared = 24.608, df = 49, p-value = 0.9986
 chisq.test(table(random_numbers))
 chisq.test(random_numbers)
 chihung<- (tx -50*nptX)^2 /(50*nptX)
@@ -37,3 +36,4 @@ sum(chihung)
 chisq.test(x=ntX,p=nptX)
 nptX
 chisq.test(x=tx,p =nptX)
+
