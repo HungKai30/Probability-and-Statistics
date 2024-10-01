@@ -19,3 +19,5 @@ plot(mathdata,dnorm(mathdata,6.250557,1.633336),
      ylab = "Math",
      main = "norm distri")
 
+#ending
+
