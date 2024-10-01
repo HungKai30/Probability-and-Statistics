@@ -13,7 +13,8 @@ sdtoan <- sd(thpt2023$toan,na.rm = T)
 print(meantoan)
 #check the results
 print(sdtoan)
-#plot the data
+# plot the data
+# so we use the dnorm -> it means the normal distribution, we can compare the differnce between the normal distribution and the real data. 
 plot(mathdata,dnorm(mathdata,6.250557,1.633336),
      xlab = "f(math)",
      ylab = "Math",
